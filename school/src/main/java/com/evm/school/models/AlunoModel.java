@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 
 @Entity
 
-public class alunoModel {
+public class AlunoModel {
 
 
     @Id
@@ -15,7 +15,7 @@ public class alunoModel {
     private String endereco;
     private String email;
 
-    public alunoModel() {
+    public AlunoModel() {
     }
 
     public Long getId() {
